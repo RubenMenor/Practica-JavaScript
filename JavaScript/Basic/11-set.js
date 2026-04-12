@@ -18,7 +18,6 @@ console.log(mySet)
 
 mySet.delete("menorruben")     //elimina el elemento que elijas, pero se lo tienes que pasar tal cual, no vale con indices concretos
 console.log(mySet)
- 
 console.log(mySet.delete('Ruben'))      //tambien retorna un boolean para confirmacion del comando, si lo haces directamente en el console.log
 
 

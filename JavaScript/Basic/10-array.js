@@ -21,7 +21,7 @@ myArray3[5]='a no ser...'
 console.log(myArray3)
 
 
-//PUSH Y POP
+//PUSH POP
 console.log('\nPUSH & POP')
 
 let myArray=[]
@@ -37,12 +37,14 @@ console.log(myArray.pop())       //El comando pop elimina el ultimo elemento añ
 myArray.pop()                   
 console.log(myArray)
 
+
+//SHIFT UNSHIFT
 console.log('SHIFT & UNSHIFT')
 console.log(myArray.shift())      //El comando shift hace lo mismo que el pop, pero con el primer elemento
 myArray.shift()
 console.log(myArray)
 
-myArray.unshift('Ruben', true, 30)
+myArray.unshift('Ruben', true, 30)      //UNSHIFT añade el elemento que queramos al principio del Array
 console.log(myArray)
 
 
